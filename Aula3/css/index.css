@@ -1,5 +1,4 @@
 
-
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -15,4 +14,9 @@ p1 {
 
 p {
     font-size: 14px;
+}
+
+a {
+    font-size: 14px;
+    color: blue;
 }
