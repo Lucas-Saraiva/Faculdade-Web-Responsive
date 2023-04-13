@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 5</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <form name="formulario" id="formulario_cadastro" action="salvar.jsp" method="post">
+
+<!--        aqui são colocados os campos de entrada.
+        Não fique bravo, o formulário é um container invisível.
+        Só ficara visível quando houver campos de entrada -->
+
+        <label >Endereço</label>
+        <input type="text" name="endereco" value="Digite o endereço" size="40" maxlength="150">
+
+        <br>
+
+        <label>Data de Nascimento</label>
+        <input type="date">
+
+        <br>
+
+        <label>Senha</label>
+        <input type="password" name="senha">
+
+        <br>
+
+        <label>Data/Hora de Entrada</label>
+        <input type="datetime-local" name="datahora_entrada">
+
+        <br>
+
+        <input type="radio" id="alternativa1" name="alternativa" value="A">
+        <label for="alternativa1">Alternativa 1</label>
+        <input type="radio" id="alternativa2" name="alternativa" value="B">
+        <label for="alternativa2">Alternativa 2</label>
+        <input type="radio" id="alternativa3" name="alternativa" value="C">
+        <label for="alternativa3">Alternativa 3</label>
+        <input type="radio" id="alternativa4" name="alternativa" value="D">
+        <label for="alternativa4">Alternativa 4</label>
+
+        <br>
+
+        <input type="checkbox" id="alternativa1" name="alternativa" value="A">
+        <label for="alternativa1">Alternativa 1</label>
+        <input type="checkbox" id="alternativa2" name="alternativa" value="B">
+        <label for="alternativa2">Alternativa 2</label>
+        <input type="checkbox" id="alternativa3" name="alternativa" value="C">
+        <label for="alternativa3">Alternativa 3</label>
+        <input type="checkbox" id="alternativa4" name="alternativa" value="D">
+        <label for="alternativa4">Alternativa 4</label>
+
+        <br>
+
+        <label>Telefone</label>
+        <input type="tel" name="telefone" size="20" maxlength="20">
+
+        <br>
+
+        <label>E-mail</label>
+        <input type="email" name="email" size="50" maxlength="80">
+
+        <br>
+
+        <label>Pesquise</label>
+        <input type="search" name="busca" size="50" maxlength="80">
+
+        <br>
+
+        <label>Site</label>
+        <input type="url" name="site" size="50" maxlength="100">
+
+        <br>
+
+        <label>Estado</label>
+        <select name="estado" id="estado">
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AM">Amazonas</option>
+            <option value="AP">Amapá</option>
+            <option value="SP">São Paulo</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="BA">Bahia</option>
+            <option value="RS">Rio Grande do Sul</option>
+        </select>
+
+        <br>
+
+        <label>Mensagem</label>
+        <textarea name="" id="" cols="" rows=""></textarea>
+
+    </form>
+
+</body>
+</html>
