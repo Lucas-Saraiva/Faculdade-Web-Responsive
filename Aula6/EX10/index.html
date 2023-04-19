@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 6</title>
+    <script type="text/JavaScript" src="index.js"></script>
+</head>
+<body>
+
+    <h1>Calculadora</h1>
+    
+    <p>
+        <label for="Num1">Número 1</label>
+        <input type="text" id="num1">
+    </p>
+
+    <p>
+        <label for="Num2">Número 2</label>
+        <input type="text" id="num2">
+    </p>
+
+    <label for="Oper">Operação</label>
+    <select name="Operação" id="operacao">
+        <option value="SUM">Soma</option>
+        <option value="SUB">Subtração</option>
+        <option value="DIV">Divisão</option>
+    </select>
+
+    <p>
+        <label id="resultado">Resultado...</label>
+    </p>
+
+    <input type="button" onclick="on_calcular()" value="Calcular">
+
+</body>
+</html>
